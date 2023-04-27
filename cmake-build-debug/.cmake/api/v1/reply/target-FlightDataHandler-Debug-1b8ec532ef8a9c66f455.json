@@ -1,0 +1,1863 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "FlightDataHandler"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 189,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 190,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 191,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 192,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 193,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 194,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 195,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 196,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 198,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 200,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 201,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 202,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 210,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 213,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 178,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 180,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 181,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 182,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 183,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 184,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 185,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 186,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.3"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "GLEW_NO_GLU"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "GLEW_STATIC"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 17,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/FreeImage/Source"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/freetype-2.10.0/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/box2d/2.4.1/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/boost/1.81.0_1/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/imagemagick/7.1.1-7/include/ImageMagick-7/Magick++"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/imagemagick/7.1.1-7/include/ImageMagick-7/MagickCore"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/imagemagick/7.1.1-7/include/ImageMagick-7/MagickWand"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/imagemagick/7.1.1-7/include/ImageMagick-7"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/opencv/4.7.0_3/include/opencv4"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/curl/8.0.1/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/glfw/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/glew/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/cmake-build-debug/SparkyEngine/lib/freetype-2.10.0/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/Cellar/opencv/4.7.0_3/include/opencv4"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					15
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				43,
+				45
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.3"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "GLEW_NO_GLU"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "GLEW_STATIC"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 17,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/FreeImage/Source"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/freetype-2.10.0/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/box2d/2.4.1/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/boost/1.81.0_1/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/imagemagick/7.1.1-7/include/ImageMagick-7/Magick++"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/imagemagick/7.1.1-7/include/ImageMagick-7/MagickCore"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/imagemagick/7.1.1-7/include/ImageMagick-7/MagickWand"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/imagemagick/7.1.1-7/include/ImageMagick-7"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/opencv/4.7.0_3/include/opencv4"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/curl/8.0.1/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/glfw/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/SparkyEngine/lib/glew/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/maxim_lavrinenko/Documents/projects/FlightDataHandler/cmake-build-debug/SparkyEngine/lib/freetype-2.10.0/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/Cellar/opencv/4.7.0_3/include/opencv4"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				52,
+				54,
+				56,
+				59,
+				63,
+				64,
+				66,
+				68,
+				70,
+				73,
+				98,
+				100,
+				101,
+				103,
+				104,
+				107,
+				109,
+				110,
+				112,
+				114,
+				116,
+				118,
+				120,
+				121,
+				125,
+				127,
+				129,
+				131,
+				132,
+				134,
+				135,
+				136,
+				137,
+				138,
+				143,
+				144
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "glfw::@ae2e49e1d3f9f3224523"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "libglew_static::@7820ca8949c272dc3d1d"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "FreeImage::@040e182a289347412136"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "freetype::@c6c09bc80bfc3799c009"
+		}
+	],
+	"id" : "FlightDataHandler::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/opt/homebrew/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "SparkyEngine/lib/glfw/src/libglfw3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "SparkyEngine/lib/glew/lib/libglewd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "SparkyEngine/lib/FreeImage/libFreeImage.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "SparkyEngine/lib/freetype-2.10.0/libfreetyped.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../SparkyEngine/lib/openal-soft/1.22.2/lib/libopenal.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "../SparkyEngine/lib/libpng/1.6.37/lib/libpng16.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "../SparkyEngine/lib/box2d/2.4.1/lib/libbox2d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "../SparkyEngine/lib/curl/8.0.1/lib/libcurl.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "../SparkyEngine/lib/imagemagick/7.1.1-7/lib/libMagick++-7.Q16HDRI.5.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "../SparkyEngine/lib/imagemagick/7.1.1-7/lib/libMagick++-7.Q16HDRI.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "../SparkyEngine/lib/imagemagick/7.1.1-7/lib/libMagick++-7.Q16HDRI.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "../SparkyEngine/lib/imagemagick/7.1.1-7/lib/libMagickCore-7.Q16HDRI.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "../SparkyEngine/lib/imagemagick/7.1.1-7/lib/libMagickWand-7.Q16HDRI.10.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "../SparkyEngine/lib/imagemagick/7.1.1-7/lib/libMagickWand-7.Q16HDRI.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "../SparkyEngine/lib/imagemagick/7.1.1-7/lib/libMagickWand-7.Q16HDRI.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_gapi.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_stitching.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_alphamat.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_aruco.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_barcode.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_bgsegm.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_bioinspired.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_ccalib.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_dnn_objdetect.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_dnn_superres.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_dpm.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_face.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_freetype.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_fuzzy.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_hfs.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_img_hash.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_intensity_transform.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_line_descriptor.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_mcc.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_quality.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_rapid.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_reg.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_rgbd.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_saliency.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_sfm.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_stereo.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_structured_light.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_superres.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_surface_matching.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_tracking.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_videostab.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_viz.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_wechat_qrcode.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_xfeatures2d.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_xobjdetect.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_xphoto.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "-framework OpenGL",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-framework Cocoa",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-framework IOKit",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-framework CoreFoundation",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-framework",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "AGL",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib/libz.tbd",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib/libbz2.tbd",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/homebrew/lib/libpng.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib/libz.tbd",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib/libbz2.tbd",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/homebrew/lib/libpng.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/homebrew/lib/libharfbuzz.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_shape.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_highgui.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_datasets.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_plot.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_text.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_ml.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_phase_unwrapping.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_optflow.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_ximgproc.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_video.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_videoio.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_imgcodecs.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_objdetect.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_calib3d.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_dnn.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_features2d.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_flann.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_photo.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_imgproc.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/homebrew/lib/libopencv_core.4.7.0.dylib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "FlightDataHandler",
+	"nameOnDisk" : "FlightDataHandler",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				43,
+				45,
+				52,
+				54,
+				56,
+				59,
+				63,
+				64,
+				66,
+				68,
+				70,
+				73,
+				98,
+				100,
+				101,
+				103,
+				104,
+				107,
+				109,
+				110,
+				112,
+				114,
+				116,
+				118,
+				120,
+				121,
+				125,
+				127,
+				129,
+				131,
+				132,
+				134,
+				135,
+				136,
+				137,
+				138,
+				143,
+				144
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				6,
+				7,
+				8,
+				9,
+				17,
+				18,
+				19,
+				20,
+				21,
+				42,
+				44,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				53,
+				55,
+				57,
+				58,
+				60,
+				61,
+				62,
+				65,
+				67,
+				69,
+				71,
+				72,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				99,
+				102,
+				105,
+				106,
+				108,
+				111,
+				113,
+				115,
+				117,
+				119,
+				122,
+				123,
+				124,
+				126,
+				128,
+				130,
+				133,
+				139,
+				140,
+				141,
+				142
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Application/app.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Application/UI/button.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Application/Map/map_part.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Application/Map/map.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Application/Utils/CoordsConverter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Application/Utils/coords_converter2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/src/engine.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/src/sparky.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/src/utils/timestep.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/src/maths/maths.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/maths/vec3.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/maths/vec2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/maths/vec4.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/maths/mat4.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/maths/rectangle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/maths/aabb.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/physics/physics.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/src/utils/fileutils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/src/utils/timer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/src/utils/imageLoad.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/src/utils/stringutils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/src/utils/colorTransformer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/audio/sound_manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/audio/sound.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/graphics/shadow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/graphics/ray.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/graphics/particle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/graphics/window.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/graphics/light.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/graphics/lightsetup.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/graphics/camera.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/graphics/shader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/graphics/font.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/graphics/font_manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/graphics/buffers/buffer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/graphics/buffers/indexbuffer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/graphics/buffers/vertexarray.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/graphics/batchrenderer2d.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/graphics/sprite.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/graphics/layers/layer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/graphics/layers/group.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/graphics/texture.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/src/graphics/texture.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/graphics/label.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/src/graphics/label.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SparkyEngine/src/graphics/texture_manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/src/graphics/renderer2d.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/src/graphics/renderable2d.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/freetype-2.10.0/freetype_headers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/freetype-2.10.0/freetype-gl/common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/freetype-2.10.0/freetype-gl/freetype-gl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/freetype-2.10.0/freetype-gl/opengl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/freetype-2.10.0/freetype-gl/platform.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/freetype-2.10.0/freetype-gl/platform.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/freetype-2.10.0/freetype-gl/texture-atlas.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/freetype-2.10.0/freetype-gl/texture-atlas.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/freetype-2.10.0/freetype-gl/texture-font.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/freetype-2.10.0/freetype-gl/texture-font.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/freetype-2.10.0/freetype-gl/vec234.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/freetype-2.10.0/freetype-gl/vector.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/freetype-2.10.0/freetype-gl/vector.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/freetype-2.10.0/include/freetype/freetype.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/gorilla-audio/include/gorilla/ga_internal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/gorilla-audio/src/ga_stream.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/gorilla-audio/src/ga.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/gorilla-audio/include/gorilla/ga.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/gorilla-audio/src/gau.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/gorilla-audio/include/gorilla/gau.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/gorilla-audio/src/common/gc_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/gorilla-audio/include/gorilla/common/gc_common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/gorilla-audio/src/common/gc_thread.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/gorilla-audio/include/gorilla/common/gc_thread.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/gorilla-audio/include/gorilla/common/gc_types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/gorilla-audio/src/devices/ga_openal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/gorilla-audio/include/gorilla/devices/ga_openal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/include/vorbis/codec.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/include/vorbis/vorbisenc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/include/vorbis/vorbisfile.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/books/coupled/res_books_stereo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/books/floor/floor_books.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/books/uncoupled/res_books_uncoupled.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/modes/floor_all.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/modes/psych_8.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/modes/psych_11.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/modes/psych_16.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/modes/psych_44.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/modes/residue_8.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/modes/residue_16.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/modes/residue_44.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/modes/residue_44u.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/modes/setup_8.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/modes/setup_11.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/modes/setup_16.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/modes/setup_22.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/modes/setup_32.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/modes/setup_44.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/modes/setup_44u.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/modes/setup_X.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/analysis.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/backends.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/barkmel.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/bitrate.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/bitrate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/block.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/codebook.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/codebook.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/codec_internal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/envelope.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/envelope.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/floor0.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/floor1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/highlevel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/info.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/lookup.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/lookup.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/lookup_data.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/lpc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/lpc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/lsp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/lsp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/mapping0.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/mdct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/mdct.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/misc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/os.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/psy.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/psy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/registry.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/registry.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/res0.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/scales.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/sharedbook.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/smallft.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/smallft.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/synthesis.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/tone.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/vorbisenc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/vorbisfile.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/window.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libvorbis/lib/window.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libogg/include/ogg/config_types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libogg/include/ogg/ogg.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SparkyEngine/lib/libogg/include/ogg/os_types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libogg/src/bitwise.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "SparkyEngine/lib/libogg/src/framing.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

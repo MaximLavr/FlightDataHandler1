@@ -1,0 +1,11 @@
+prefix=/opt/homebrew/Cellar/harfbuzz/7.1.0
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: harfbuzz
+Description: HarfBuzz text shaping library
+Version: 7.1.0
+Requires.private: freetype2, glib-2.0, graphite2
+Libs: -L${libdir} -lharfbuzz
+Libs.private: -lm -framework ApplicationServices
+Cflags: -I${includedir}/harfbuzz

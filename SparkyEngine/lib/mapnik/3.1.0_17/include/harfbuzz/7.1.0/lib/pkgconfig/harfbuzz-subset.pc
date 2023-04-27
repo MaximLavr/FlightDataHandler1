@@ -1,0 +1,11 @@
+prefix=/opt/homebrew/Cellar/harfbuzz/7.1.0
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: harfbuzz-subset
+Description: HarfBuzz font subsetter
+Version: 7.1.0
+Requires: harfbuzz =  7.1.0
+Libs: -L${libdir} -lharfbuzz-subset
+Libs.private: -lm
+Cflags: -I${includedir}/harfbuzz
